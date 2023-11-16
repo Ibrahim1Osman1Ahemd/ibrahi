@@ -42,7 +42,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(/image/dominik-lange-Lej_oqHljbk-unsplash.jpg) no-repeat;
+    background: url(./image/image.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
