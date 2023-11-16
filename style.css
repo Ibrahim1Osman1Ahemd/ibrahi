@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    font-family: 'poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3a6cf4;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navication a{
+    color: #3a6cf4;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+.navication a:hover{
+    color: #601cfc;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(/imges/dominik-lange-Lej_oqHljbk-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main h2{
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500s;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #4e9eff;
+    font-size: 3em;
+    font-weight: 500;
+}
+.main h3{
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    color: white;
+    text-decoration: none;
+    background-color: #3a6cf4;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+.social-icons a{
+    color: white;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+.title {
+    color: #3a6cf4;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+    font-weight: 800;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cards {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1,1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.cards:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: #3a6cf4;
+    text-align: center;
+    font-size: 8em;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #3a6cf4;
+    margin: 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.projects {
+    background-color: #000016;
+}
+.projects.content {
+    margin: 30px;
+}
+.project-card{
+    background-color: white;
+    border: 1px solid white;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    min-height: 14em;
+    width: 23em;
+}
+.project-card:hover {
+    transform: scale(1.1);
+}
+.project-imge img {
+    width: 100%;
+}
+.project-imge:hover {
+    opacity: 0.9;
+}
+.project-info {
+    padding: 1em;
+}
+.project-cagotry {
+    font-size: 0.8;
+    color: black;
+}
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.more-details {
+    text-decoration: none;
+    color: #3a6cf4;
+}
+.more-details:hover {
+    color: #601cfc;
+}
+ .content .icon {
+    font-size: 3em;
+}
+.content .info h3 {
+    color: black;
+}
+.content .icon p {
+    font-size: 1.5em;
+}
+
+.footer {
+    background-color: #000016;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+.footer-title span {
+    color: #3a6cf4;
+}
+.footer .social-icons a{
+    font-size: 1.2em;
+    padding: 0 12px 0 0;
+}
